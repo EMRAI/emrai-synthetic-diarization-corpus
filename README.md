@@ -28,11 +28,11 @@ Audio files are 16kHz PCM 16bit little-endian mono encoded.
 ### Formats
 
 **ctm** - each line is **F** **C** **BT** **DUR** **word**
-    Where:
-    **F** The waveform filename. NOTE: no pathnames or extensions are expected. 
-    **C** Speaker.
-    **BT** The begin time (seconds) of the segment, measured from the start time of the file. 
-    **DUR** The duration (seconds) of the segment.
+<br>    Where:
+<br>    **F** The waveform filename. NOTE: no pathnames or extensions are expected. 
+<br>    **C** Speaker.
+<br>    **BT** The begin time (seconds) of the segment, measured from the start time of the file. 
+<br>    **DUR** The duration (seconds) of the segment.
 <br>**labs** - each line is a speaker id or 0 for pauses. One line corresponds 0.01 seconds of audio.
 <br>**rttm0** - Rich Transcription Time Marked file format. Full specification can be found in Appendix A of "NIST's The 2009 (RT-09) Rich Transcription Meeting Recognition Evaluation Plan" paper.
 <br>**rttm** - merged rttm0, without pauses
