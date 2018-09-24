@@ -38,14 +38,19 @@ Audio files are 16kHz PCM 16bit little-endian mono encoded.
 <br>**rttm** - merged rttm0, without pauses
 
 This corpus is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), but requires the following reference:
-> Erik Edwards, Michael Brenndoerfer, David Suendermann, XXXXX 2018 (submitted)
+
+
+Edwards, E., Brenndoerfer, M., Robinson, A., Sadoughi, N., Finley, G. P., Korenevsky, M., Axtmann, N. & Suendermann-Oeft, D. (2018, September). A Free Synthetic Corpus for Speaker Diarization Research. In International Conference on Speech and Computer (pp. 113-122). Springer, Cham.
 
 #### Bibtex
 ``` 
-@article{Edwards18_SynDiaCorpus,
-	Author = {Edwards, E and Brenndoerfer, M and Suendermann, D},
-	Title = {TITLE: XXX},
-	Year = {2018} 
+@inproceedings{edwards2018free,
+  title={A Free Synthetic Corpus for Speaker Diarization Research},
+  author={Edwards, Erik and Brenndoerfer, Michael and Robinson, Amanda and Sadoughi, Najmeh and Finley, Greg P and Korenevsky, Maxim and Axtmann, Nico and Miller, Mark and Suendermann-Oeft, David},
+  booktitle={International Conference on Speech and Computer},
+  pages={113--122},
+  year={2018},
+  organization={Springer}
 }
 ```   
 
